@@ -34,7 +34,6 @@ const HeroBannerStyles = styled.div`
       font-size: 50px;
       margin-top: -320px;
       margin-left: 40%;
-      text-shadow: 1px 1px 2px #fff;
     }
     & p {
       width: 50%;
@@ -53,7 +52,6 @@ const HeroBannerStyles = styled.div`
       margin-left: 32%;
       font-size: 25px;
       margin-top: -180px;
-      text-shadow: 1px 1px 2px #fff;
     }
     & p {
       width: 60%;
