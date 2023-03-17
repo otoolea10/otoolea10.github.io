@@ -12,6 +12,13 @@ export const AboutStyles = styled.div`
     font-size: 95px;
     margin: -15% auto 0 auto;
   }
+  h3 {
+    padding: 3rem 0 2rem 0;
+    font-size: 30px;
+    width: 332px;
+    display: block;
+    margin: auto;
+  }
   .logo-image {
     height: 200px;
     width: 15%;
@@ -20,7 +27,8 @@ export const AboutStyles = styled.div`
     margin: auto;
   }
   p {
-    margin: 2rem;
+    font-size: 25px;
+    margin: 1rem 10% 7% 10%;
   }
   @media (max-width: 1025px) {
     .heroBanner {
@@ -37,6 +45,10 @@ export const AboutStyles = styled.div`
       height: 150px;
       width: 20%;
     }
+    p {
+      font-size: 22px;
+      margin: 0 10% 12% 10%;
+    }
   }
   @media (max-width: 767px) {
     .heroBanner {
@@ -52,6 +64,10 @@ export const AboutStyles = styled.div`
     .logo-image {
       height: 150px;
       width: 45%;
+    }
+    p {
+      font-size: 22px;
+      margin: 0 10% 20% 10%;
     }
   }
 `;
